@@ -39,7 +39,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1.0.7
         with:
-          path: dist/apps/documentation/exporter
+          path: dist/apps/documentation/exported
           retention-days: "5"
 
   e2e:
